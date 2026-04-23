@@ -1,5 +1,10 @@
 # Quantum Error Correction
 
+There are very significant challenges that must be overcome before we can reliabily implement the sorts of large-scale quantum computations we hope will one day be possible.
+
+Quantum information is extremely fragile -- You can literally ruin it just by looking at it. For this reason, to correctly operate, quantum computers need to isolate the quantum information they store from the environment around them to an extreme degree.
+
+-> Suspectible to both inaccuracies and environmental noise. 
 
 ## Core Objective
 The primary challenge in quantum computing is protecting the **logical qubit** from environmental decoherence. This repository explores the mathematical mapping of a single logical state $\alpha|0\rangle + \beta|1\rangle$ into a higher-dimensional **multi-qubit entangled subspace** to enable fault tolerance.
