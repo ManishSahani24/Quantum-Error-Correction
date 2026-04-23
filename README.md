@@ -25,6 +25,10 @@ The standard Shor implementation utilizes a Phase-Flip code as the outer code an
 <img width="888" height="351" alt="image" src="https://github.com/user-attachments/assets/9edfcb42-b2d8-41fd-959c-db1d1ecdf41c" />
 
 
+### 3. Discretization of Error
+
+
+
 
 ---
 
