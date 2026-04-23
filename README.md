@@ -12,7 +12,7 @@ The primary challenge in quantum computing is protecting the **logical qubit** f
 Protecting against independent Pauli noise:
 * **Bit-Flip Code ($X$):** Uses redundancy to protect against state-flip errors.
 * **Phase-Flip Code ($Z$):** Uses the Hadamard basis to transform phase errors into bit-flip errors for correction.
-* **Syndrome Measurement:** Implementation of ancilla-driven parity checks $Z_1Z_2$ and $Z_2Z_3$ to detect errors without collapsing the logical superposition.
+* **Syndrome Measurement:** Implementation of ancilla-driven parity checks to detect errors without collapsing the logical superposition.
 
 ### 2. The Shor 9-Qubit Code
 Shor’s 9-qubit code, introduced by Peter Shor in 1995, is the first quantum error-correcting code designed to protect a single logical qubit from arbitrary single-qubit errors (both bit-flips 
